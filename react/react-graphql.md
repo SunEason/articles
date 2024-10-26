@@ -77,7 +77,7 @@ export default App;
 ![类型错误](../assets/react-graphql/type-error.png)
 那么能不能直接通过 graphql 获取到类型提示呢？　这时候就需要　`graphql-codegen` 这个包了
 
-## graphql-codegen
+## 2. graphql-codegen
 
 `graphql-codegen` 是一个根据 graphql schema 生成类型提示的包。
 首先我们需要安装 `@graphql-codegen`
@@ -150,7 +150,7 @@ export default config
 
 ![ts 类型提示](../assets/react-graphql/grqphql-type.png)
 
-## 使用 typescript-react-apollo 生成 react hook
+## 3. 使用 typescript-react-apollo 生成 react hook
 
 如果我们连 useQuery useMutation 都不想写，这时我们就可以使用 `@graphql-codegen/typescript-react-apollo` 插件来生成对应的 react hook，方便我们在组件中使用。
 
